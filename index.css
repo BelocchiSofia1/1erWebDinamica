@@ -1,0 +1,49 @@
+.personas-heading{
+    /*fondo*/
+    background: rgba(82, 0, 0, 0.2);
+    text-align: center;
+}
+
+/*contenedor de todas las tarjetas*/
+#cards-container{
+   
+    /*pantalla*/
+    display: flex;
+    flex-direction: row;
+   
+    /*align-items: center*/;
+
+    /* los ordena para que todos ocupen el mismo tamaño*/
+    flex-wrap: wrap;
+
+    /*centra todas las tarjetas*/
+    justify-content: center;
+}
+
+.card{
+    background: antiquewhite;
+
+    /*comportamiento de la tarj adaptable a la pantalla*/
+    display: flex;
+
+    /*texto en columnas*/
+    flex-direction: column;
+
+    /*centra el texto dentro de la tarj*/
+    align-items: center;
+
+    /*redondea los bordes*/
+    border-radius: 15px;
+
+    /*da color al borde*/
+    border: 1px solid black;
+
+    /*relleno*/
+    padding: 15px;
+
+    /*ancho de las tarj*/
+    width: 240px;
+
+    /*margen entre tarj y tarj*/
+    margin: 5px;
+}
